@@ -3,3 +3,21 @@ font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
    
 }
+/* added these custom css as my play cdn was making problem giving the padding(Was working in chrome small device simulator but broken in phone) */
+
+  .meet-the-host,.featured {
+    padding: 40px 20px; /* mobile */
+  }
+
+  @media (min-width: 768px) {
+    .meet-the-host,.featured {
+      padding: 60px 50px; /* tablet */
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .meet-the-host,.featured {
+      padding: 90px 100px; /* desktop */
+    }
+  }
+
